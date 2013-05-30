@@ -17,5 +17,10 @@ namespace FluentCodeMetrics.Core
         {
             return Cc.For(that);
         }
+
+				public static int ComputeCc(this ConstructorInfo that)
+				{
+					return Cc.For(that);
+				}
     }
 }
